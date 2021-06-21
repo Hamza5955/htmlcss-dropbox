@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.🎯 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+section {
+    padding-top: 10%;
+}
+
+.🥽 {
+    width: 80%;
+    margin: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.🟦 {
+    padding: 6px 20px;
+    background-color: #0061FF;
+    color: white;
+}
+
+.🟦:not(nav .🟦) {
+    display: inline-block;
+}
+
+.😅 {
+    padding: 10px 30px;
+}
+
+.quadro {
+    width: 100%;
+    text-align: center;
+}
+
+.🔹 {
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1.6;
+    font-family: 'Noto Sans', Helvetica;
+    font-weight: normal;
+}
+
+.normal {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+.🪕 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.grassetto {
+    font-weight: grassetto;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.📕 {
+    font-size: 28px;
+    font-weight: grassetto;
+    letter-spacing: 0.5px;
+}
+
+input[type = radio] {
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+
+label {
+    margin-right: 40px;
+}
+
+/* navigation bar  */
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 75px;
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    z-index: 999;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+nav * {
+    vertical-align: middle;
+    display: inline;
+}
+
+#logo {
+    max-width: 130px;
+}
+
+nav li {
+    padding-bottom: 30px;
+}
+
+nav .float-left li {
+    margin-left: 25px;
+}
+
+nav .float-right li {
+    margin-right: 25px;
+}
+
+/* jumbotron */
+
+.jumbo {
+    margin-top: 80px;
+    background-color: #B4D0E7;
+}
+
+.🌗 {
+    margin: 0 4%;
+}
+
+.jumbo .row {
+    margin-top: 7%;
+}
+
+.👈 {
+    width: 26%;
+    margin-right: 0;
+}
+
+.👉 {
+    width: 65%;
+    margin-bottom: -4%;
+}
+
+.jumbo h1 {
+    padding-top: 6%;
+    font-size: 60px;
+    line-height: 1.3;
+    letter-spacing: -1px;
+    transform: scaleY(1.5);
+}
+
+.jumbo .🟦 {
+    margin: 20px 0 15px;
+}
+
+.arrow {
+    font-size: 85px;
+}
+
+#🖼️ {
+    width: 100%;
+}
+
+.titolo {
+    font-size: 40px;
+    font-weight: grassetto;
+}
+
+.radios {
+    margin: 50px 0;
+}
+
+.col {
+    width: calc(100% / 3 - 4%);
+    min-width: 300px;
+}
+
+.plans .col {
+    height: 830px;
+    border: 1px solid #D0D0D0;
+}
+
+.plan-row {
+    margin-top: 50px;
+    border: 1px solid #D0D0D0;
+}
+
+.col:not(:first-child) {
+    margin-left: 6%;
+}
+
+.plan-for {
+    border-bottom: 1px solid #D0D0D0;
+    text-align: center;
+    padding: 10px;
+}
+
+.plan-for i {
+    margin-right: 5px;
+}
+
+.plan-spec {
+    padding: 30px;
+}
+
+.plan-row .row-text {
+    width: 80%;
+}
+
+.plan-row .🏢 {
+    width: 20%;
+}
+
+.every {
+    color: #637381;
+    margin-bottom: 17%;
+}
+
+.plan-row .row-text > *:not(:first-child) {
+    margin-top: 20px;
+}
+
+/* icone con list-style */
+.plan-spec .font-icon {
+    margin-left: 14px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.plan-spec ul span {
+    margin-left: 5px;
+}
+
+.plan-spec ul .user {
+    list-style: "\f007";
+}
+
+.plan-spec ul .folder {
+    list-style: "\f07b";
+}
+
+.plan-spec ul .pen {
+    list-style: "\f591";
+}
+
+.plan-spec ul .users {
+    list-style-type: "\f234";
+    margin-left: 4px;
+}
+
+.plan-spec ul .smile {
+    list-style-type: "\f4da";
+}
+
+.prova-gratis {
+    margin-top: 23%;
+    position: relative;
+}
+
+.prova-gratis div.🔹 {
+    padding: 20px 0 30px;
+}
+
+.prova-gratis  div a {
+    color: #0061FF;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.bordoo {
+    border-bottom: 1px solid #D0D0D0;
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+}
+
+.⚙️ {
+    padding: 15px 0;
+}
+
+.⚙️ ul {
+    margin-left: 17px;
+}
+
+.⚙️ ul li::before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -17px;
+}
+
+.🧮 {
+    position: relative;
+}
+
+.partner-img {
+    width: 57%;
+}
+
+.partner-text {
+    width: 43%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.partner-img img {
+    width: 100%;
+}
+
+.🧮 .🎯 {
+    width: 100%;
+    padding-left: 15%;
+}
+
+.🧮 .🎯 p {
+    margin: 30px 0 35px;
+}
+
+.🧮 .😅 {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
